@@ -1,0 +1,94 @@
+.entete {
+      
+      display: flex;
+      flex-wrap: wrap;
+      filter: brightness(0, 45);
+      background-image: url('../../assets/image_6483441-36.jpg');
+      background: -webkit-image-set('../../assets/');
+      transform-origin: 45px;
+      background-size: cover;
+      height: 700px;
+      stroke-opacity: var(background-color);
+}
+
+h1 {
+      text-rendering: optimizeLegibility;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 45px;
+      font-style: italic;
+      font-style: oblique;
+      font-weight: bolder;
+      text-decoration-color: rgb(105, 140, 103);
+      text-align: justify;
+      color: white;
+
+}
+
+.domaine {
+      margin-left: 10px;
+      align-content: center;
+      .label{
+            color: black;
+            font-weight: bolder;
+            font-style: italic;
+      }
+}
+
+i {
+      font-style: normal;
+      font-weight: bolder;
+}
+
+.nous {
+      background-image: url('../../assets/image_6483441-20-1024x683.jpg');
+      background: -webkit-image-set('../../assets/');
+      transform-origin: 45px;
+      background-size: cover;
+      backface-visibility: visible;
+      //color: rgba(0, 0, 7, 0.5);
+      //
+      .titre{
+      color: black;
+}
+.info{
+      color: whitesmoke;
+}
+
+      stroke-opacity: var(background-color);
+}
+
+p.titre {
+      text-decoration-color: rgb(4, 31, 22);
+      text-align: center;
+      font-size: 45px;
+      font-weight: bolder;
+}
+
+p.info {
+      font-size: 11px;
+      text-align: justify;
+}
+
+i {
+      text-align: left;
+      display: inline-flex;
+      white-space: var(0);
+      font-size: 22px;
+      color: whitesmoke;
+}
+
+.calque {
+      //color: #d0c3c3;
+      font-style: normal;
+      font-weight: bold;
+      text-align: justify;
+      font-size: 12px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: rgba(0, 0, 0, 0.75);
+}
+
+.box {
+      box-shadow: 0 0 10px rgba(10, 11, 100, 0.5);
+      background: rgba(100, 100, 200, 0.5);
+      //color: aliceblue;
+}

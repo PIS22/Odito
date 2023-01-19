@@ -97,8 +97,19 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/odit",
+            "netlifyToken": "c8XDqWfGl_WxIECpdQU-hWcdjojFktwxX5PldhpJhFA",
+            "siteId": "da4f6bb2-5c02-47be-b8f6-8924b2fb67ab"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a10938e3-0fc3-4895-8d20-29387235d950"
   }
 }

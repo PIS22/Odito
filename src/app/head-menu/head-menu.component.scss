@@ -1,0 +1,31 @@
+nav {
+      align-items: center;
+      background-color: rgb(25, 31, 34);
+      border-bottom: darkgoldenrod;
+      border-bottom: 10px;
+      text-align: center;
+      
+}
+
+/*@media screen and (max-width: 600px) {
+  navbar a:not(:first-child) {display: none;}
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  navbar.responsive {position: relative;}
+  nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+*/
